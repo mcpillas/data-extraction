@@ -1,0 +1,65 @@
+# Byte-compiled/optimized/DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Distribution/build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python-specific tools and caches
+.mypy_cache/
+.pyre/
+.dmypy.json
+
+# Data extraction task-related files (if applicable)
+data/*.csv  # Ignore CSV files in the data directory (if generated during data extraction)
+data/*.json # Ignore JSON files in the data directory (if generated during data extraction)
+data/*.xlsx # Ignore Excel files in the data directory
+
+# Seaborn or Matplotlib plots (if saved locally)
+plots/*.png  # Ignore PNG plots in the plots directory (adjust as needed)
+plots/*.jpg  # Ignore JPG plots in the plots directory
+
+# Environment-specific settings (optional)
+local_settings.py
+
+# Other temporary or sensitive files
+*.bak
