@@ -28,8 +28,9 @@ If using as a docker container, you need to have `docker` installed and running 
 ## **How to Use**
 1. Clone this repository:
 
-    `git clone <repository_url>`
-    `cd <repository_folder>`
+    `git clone https://github.com/mcpillas/data-extraction.git`
+
+    `cd data_extraction`
 
 2. Install the required libraries:
 
@@ -54,8 +55,9 @@ If using as a docker container, you need to have `docker` installed and running 
 ## **Using as Docker container**
 1. Clone this repository:
 
-    `git clone <repository_url>`
-    `cd <repository_folder>`
+    `git clone https://github.com/mcpillas/data-extraction.git`
+
+    `cd data_extraction`
 
 2. Run docker script
 
