@@ -166,7 +166,7 @@ def visualize_data(df):
     plt.savefig("meteorite_scatter_mass_vs_year.png")
 
 # Main function to orchestrate the task
-def earth_metiorite_landing_data_handling():
+def earth_meteorite_landing_data_handling():
     """
     Main function to orchestrate fetching, cleaning, analyzing,
     and visualizing the Earth Meteorite Landings dataset.
@@ -194,4 +194,4 @@ def earth_metiorite_landing_data_handling():
     visualize_data(df)
 
 if __name__ == "__main__":
-    earth_metiorite_landing_data_handling()
+    earth_meteorite_landing_data_handling()
