@@ -23,6 +23,8 @@ The following Python libraries are required:
 - `requests`
 - `notebook`
 
+If using as a docker container, you need to have `docker` installed and running in your system.
+
 ## **How to Use**
 1. Clone this repository:
 
@@ -32,6 +34,10 @@ The following Python libraries are required:
 2. Install the required libraries:
 
     `sh setup_env.sh` or `./setup_env.ps1`
+
+3. Activate the virtual environment
+
+    `source /path/to/venv/activate/script`
 
 3. Run the Jupyter Notebook or Python script:
 - **Jupyter Notebook**:
@@ -44,6 +50,25 @@ The following Python libraries are required:
 4. View the results:
 - Key statistics will be printed in the terminal or notebook.
 - Visualizations will be displayed inline (in Jupyter) or saved as `.png` files.
+
+## **Using as Docker container**
+1. Clone this repository:
+
+    `git clone <repository_url>`
+    `cd <repository_folder>`
+
+2. Run docker script
+
+    `chmod +x run_docker.sh`
+
+    `./run_docker.sh`
+
+3. Access Jupiter notebook on the deployed container
+
+    `http://localhost:8888`
+
+4. View the results:
+- Visualizations will be displayed once all cells are run.
 
 ## **Visualizations**
 The code generates the following visualizations:
