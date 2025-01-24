@@ -46,7 +46,7 @@ If using as a docker container, you need to have `docker` installed and running 
 - **Python Script**:
   Run the script directly using:
 
-  `python earth_metiorite_landings.py`
+  `python earth_meteorite_landings.py`
 
 4. View the results:
 - Key statistics will be printed in the terminal or notebook.
